@@ -399,7 +399,7 @@ function startFullWidthSlider() {
 		var slider = $(".royalSlider").data('royalSlider');
 		slider.ev.on('rsAfterContentSet', function(e, slideObject) {
 			parallasseRs();
-			console.log('slide cambiato');
+			//console.log('slide cambiato');
 			$(".royalSlider").addClass('pronto');
 			
 			if ($('#clock').length) {
@@ -708,7 +708,7 @@ function generaChartVisite() {
 			scaleLineWidth: 1,
 			scaleShowLabels: true,
 			scaleLabel: "<%=value%> ",
-			scaleFontFamily: "'Museo500Regular'",
+			scaleFontFamily: "'Arial'",
 			scaleFontSize: 12,
 			scaleFontStyle: "normal",
 			scaleFontColor: "#888",

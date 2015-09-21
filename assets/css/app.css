@@ -108,19 +108,19 @@ body {
 }
 
 h1 {
-	font-family: "Museo300Regular", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 36px;
 	font-weight: normal;
 }
 
 h2 {
-	font-family: "Museo300Regular", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 28px;
 	font-weight: normal;
 }
 
 h3 {
-	font-family: "Museo300Regular", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 22px;
 	font-weight: normal;
 }
@@ -203,7 +203,6 @@ fieldset[disabled] .btn-primary.active {
 .navbar .brand {
 	position: absolute;
 	bottom: 15px;
-	background: url(../img/rd-logo-bianco.png) no-repeat;
 	width: 124px;
 	height: 64px;
 	background-size: 100%;
@@ -224,7 +223,6 @@ fieldset[disabled] .btn-primary.active {
 	opacity: 0;
 	filter: alpha(opacity=0);
 	position: absolute;
-	background: url(../img/rd-logo-bianco.png) no-repeat;
 	width: 73px;
 	height: 40px;
 	top: 6px;
@@ -331,7 +329,6 @@ fieldset[disabled] .btn-primary.active {
 .blog .navbar .brand,
 .category .navbar .brand,
 .single-post .navbar .brand {
-	background: url(../img/rd-logo-nero.png) no-repeat;
 	background-size: 100%;
 }
 
@@ -695,7 +692,7 @@ hr {
 section.pagina-testo-header {
 	padding-top: 100px;
 	padding-bottom: 20px;
-	background: #3e7ba8 url(../img/pagina-bg.jpg) top center no-repeat;
+	background: #3e7ba8;
 	background-size: cover;
 }
 
@@ -895,12 +892,10 @@ section.page-header {
 }
 
 .js #full-width-slider {
-	background: url(../img/loading_gif.gif) center center no-repeat;
 	background-size: 45px 32px;
 }
 
 .lt-ie10.js #full-width-slider {
-	background: url(../img/loading_gif_low.gif) center center no-repeat;
 	background-size: 45px 32px;
 }
 
@@ -927,12 +922,11 @@ background-image: none;
 	background: #424b51;
 	top: 0;
 	z-index: 9999;
-	background: url(../img/loading_gif.gif) center center no-repeat #424b51;
+	background: #424b51;
 	background-size: 45px 32px;
 }
 
 .lt-ie10 .loader {
-	background: url(../img/loading_gif_low.gif) center center no-repeat;
 	background-size: 45px 32px;
 }
 
@@ -1181,7 +1175,6 @@ display: none;
 }
 
 #clockanalog {
-	background: url(../img/orologio/orologio-rd.png) no-repeat;
 	width: 200px;
 	height: 200px;
 	margin: 0 auto 20px;
@@ -1207,7 +1200,6 @@ visibility: hidden;
 	width: 200px;
 	height: 200px;
 	margin: 0 auto 0 auto;
-	background: url(../img/orologio/orologio-rd.png) no-repeat;
 	list-style: none;
 }
 
@@ -1230,19 +1222,16 @@ visibility: visible;
 }
 
 #sec {
-	background: url(../img/orologio/analogseconds.png) center center no-repeat;
 	z-index: 3;
 	background-size: 170px;
 }
 
 #min {
-	background: url(../img/orologio/analogminutes.png) center center no-repeat;
 	z-index: 2;
 	background-size: 170px;
 }
 
 #hour {
-	background: url(../img/orologio/analoghours.png) center center no-repeat;
 	z-index: 1;
 	background-size: 170px;
 }
@@ -1288,7 +1277,7 @@ fine orologio
 .global-perc {
 	background: #d8dddc;
 	padding: 10px 0;
-	font-family: "Museo500Regular", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	line-height: 24px;
 	display: block;
@@ -1336,7 +1325,7 @@ fine orologio
 }
 
 .visited-tot {
-	font-family: "Museo500Regular", Helvetica, Arial, sans-serif;
+	font-family: Helvetica, Arial, sans-serif;
 	font-size: 24px;
 	line-height: 24px;
 	text-align: center;
@@ -1476,7 +1465,7 @@ fine orologio
 }
 
 .pannello.cl-tu .front {
-	background: url(../img/avatar-placeholder.png) #eef3f7 no-repeat;
+	background: #eef3f7;
 	background-size: 100% 100%;
 	border: dashed 3px #c3d6e4;
 	border-bottom: solid 3px #c3d6e4;
@@ -1489,10 +1478,6 @@ fine orologio
 
 .pannello.cl-tu p {
 	font-size: 16px;
-}
-
-section.blu.webdev {
-	background: url(../img/webdev-bg.png);
 }
 
 section.blu.webdev .row > div {
@@ -1629,7 +1614,6 @@ display: none;
 .single-portfolio .img2,
 .single-portfolio .img3 {
 	height: 100px;
-	width: auto;
 	position: absolute;
 	top: 80px;
 	right: 0;
@@ -2661,7 +2645,6 @@ a.roll:hover span {
 }
 
 section.foto {
-	background-img: url(../img/about-photo.jpg);
 	height: 500px;
 }
 
