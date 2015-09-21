@@ -642,11 +642,9 @@ function initializeGmap() {
 			map.setOptions({
 				styles: minimal
 			});
-			var dropshadow = new google.maps.MarkerImage("http://riotdesign.eu/assets/img/shadow.png", null, null, null, new google.maps.Size(82, 32));
-			var image = new google.maps.MarkerImage("http://riotdesign.eu/assets/img/marker.png", null, null, null, new google.maps.Size(47, 56));
 			var marker = new google.maps.Marker({
 				map: map,
-				title: "Segno Studio Creativo",
+				title: "Three Birch Properties",
 				animation: google.maps.Animation.DROP,
 				position: latlng,
 				icon: image,
@@ -692,13 +690,13 @@ function generaChartVisite() {
 	if ($("html:not(.lt-ie8)  #visited").length) {
 		var visiteChart = $("#visited").get(0).getContext("2d");
 		var visiteData = {
-			labels: ["06/2011", "01/2012", "06/2012", "01/2013", "06/2013", "01/2014", "06/2014",  "01/2015"],
+			labels: ["01/2015", "02/2015", "03/2015", "04/2015", "05/2015", "06/2015", "07/2015",  "08/2015"],
 			datasets: [{
 				fillColor: "rgba(92,145,181,0.5)",
 				strokeColor: "rgba(92,145,181,1)",
 				pointColor: "rgba(92,145,181,1)",
 				pointStrokeColor: "#fff",
-				data: [0, 1.4, 8.6, 14.2, 17.1, 32.6, 55.8, 154.457]
+				data: [0, 1, 8, 14, 17, 32, 55, 117]
 			}]
 		}
 		var visiteOptions = {
@@ -709,7 +707,7 @@ function generaChartVisite() {
 			scaleLineColor: "rgba(235,238,237,1)",
 			scaleLineWidth: 1,
 			scaleShowLabels: true,
-			scaleLabel: "<%=value%> k",
+			scaleLabel: "<%=value%> ",
 			scaleFontFamily: "'Museo500Regular'",
 			scaleFontSize: 12,
 			scaleFontStyle: "normal",
@@ -750,8 +748,7 @@ var AJAX_started = false;
 var AJAX_searchPath = null;
 var AJAX_ua = jQuery.browser;
 //urls
-var AAPLsiteurl = "http://riotdesign.eu";
-var AAPLhome = "http://riotdesign.eu";
+var AAPLhome = "http://threebirch.com";
 var AAPLloadingIMG = jQuery('<img/>').attr('src', '');
 var AAPLloadingDIV = jQuery('<div/>').attr('style', 'display:none;').attr('id', 'ajaxLoadDivElement');
 AAPLloadingDIV.appendTo('body');
