@@ -1,6 +1,3 @@
-/* Author: Paolo Marchetti @ Riot Design / 2013
-
-*/
 //determina l'user agent per funzioni specifiche touch
 var userAgent = window.navigator.userAgent;
 //Per Android, determina la versione esatta
@@ -285,7 +282,7 @@ function cambiaHeader() {
 function usaWaypoints() {
 	if (userAgent.match(/iPad/i) || userAgent.match(/iPhone/i) || userAgent.match(/iPod/i)) {
 		generaChartVisite();
-		generaChartGlobale();
+		generaChartglobal();
 		return; // non attivare
 	} else {
 		// by default your element will be hidden
@@ -303,9 +300,9 @@ function usaWaypoints() {
 			offset: '100%'
 		});
 		// by default your element will be hidden
-		$('#visite').css("opacity", 0);
+		$('#visited').css("opacity", 0);
 		// call waypoint plugin
-		$('#visite').waypoint(function(event, direction) {
+		$('#visited').waypoint(function(event, direction) {
 			// do your fade in here
 			if ($(this).css("opacity") == 0) {
 				$(this).animate({
@@ -320,9 +317,9 @@ function usaWaypoints() {
 			offset: '100%'
 		});
 		// by default your element will be hidden
-		$('#globale').css("opacity", 0);
+		$('#global').css("opacity", 0);
 		// call waypoint plugin
-		$('#globale').waypoint(function(event, direction) {
+		$('#global').waypoint(function(event, direction) {
 			// do your fade in here
 			if ($(this).css("opacity") == 0) {
 				$(this).animate({
@@ -331,7 +328,7 @@ function usaWaypoints() {
 					queue: true,
 					duration: 500
 				});
-				generaChartGlobale();
+				generaChartglobal();
 			}
 		}, {
 			offset: '100%'
@@ -659,10 +656,10 @@ function initializeGmap() {
 	}
 }
 
-function generaChartGlobale() {
-	if ($("html:not(.lt-ie8) #globale").length) {
-		var globaleChart = $("#globale").get(0).getContext("2d");
-		var globaleData = [{
+function generaChartglobal() {
+	if ($("html:not(.lt-ie8) #global").length) {
+		var globalChart = $("#global").get(0).getContext("2d");
+		var globalData = [{
 			value: 65,
 			color: "#4db07a"
 		}, {
@@ -675,7 +672,7 @@ function generaChartGlobale() {
 			value: 7,
 			color: "#eac85d"
 		}]
-		var globaleOptions = {
+		var globalOptions = {
 			segmentShowStroke: true,
 			segmentStrokeColor: "#fff",
 			segmentStrokeWidth: 4,
@@ -687,13 +684,13 @@ function generaChartGlobale() {
 			animateScale: false,
 			onAnimationComplete: null
 		}
-		var globale = new Chart(globaleChart).Doughnut(globaleData, globaleOptions);
+		var global = new Chart(globalChart).Doughnut(globalData, globalOptions);
 	}
 }
 
 function generaChartVisite() {
-	if ($("html:not(.lt-ie8)  #visite").length) {
-		var visiteChart = $("#visite").get(0).getContext("2d");
+	if ($("html:not(.lt-ie8)  #visited").length) {
+		var visiteChart = $("#visited").get(0).getContext("2d");
 		var visiteData = {
 			labels: ["06/2011", "01/2012", "06/2012", "01/2013", "06/2013", "01/2014", "06/2014",  "01/2015"],
 			datasets: [{

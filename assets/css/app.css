@@ -266,7 +266,7 @@ fieldset[disabled] .btn-primary.active {
 
 .navbar .nav li a {
 	text-transform: uppercase;
-	font-size: 13px;
+	font-size: 17px;
 	font-weight: 700;
 	letter-spacing: 1px;
 	opacity: 0.65;
@@ -357,8 +357,6 @@ fieldset[disabled] .btn-primary.active {
    navbar ridotta dopo scroll
    ========================================================================== */
 
-
-
 .pannello-affix {
 	width: 100%;
 	-webkit-transition: all 0.1s ease-out;  /* Chrome 1-25, Safari 3.2+ */
@@ -408,9 +406,6 @@ fieldset[disabled] .btn-primary.active {
    Content, stili generici
    ========================================================================== */
    
-   
-
-
 h2 a,
 h3 a,
 h4 a {
@@ -497,38 +492,6 @@ h5 span.sep:last-child {
 	-o-animation-delay: 1.2s;
 	animation-delay: 1.2s;
 	-webkit-animation-delay: 1.2s;
-}
-
-.lead-link {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left: -85px;
-	padding: 5px 0;
-	width: 170px;
-	background: transparent;
-	-webkit-border-radius: 4px 4px 0 0;
-	-moz-border-radius: 4px 4px 0 0;
-	border-radius: 4px 4px 0 0;
-	text-align: center;
-	color: transparent;
-	text-transform: uppercase;
-	font-size: 14px;
-	font-weight: 700;
-	letter-spacing: 1px;
-	z-index: 100;
-}
-
-.lead-link:hover {
-	text-decoration: none;
-	color: transparent;
-}
-
-.lead-link .icona-freccia-giu,
-.lead-link .icona-freccia-giu:hover {
-	color: white;
-	font-size: 20px;
-	text-shadow: 0px 1px 10px rgba(0,0,0,0.3);
 }
 
 .alert-ie7 {
@@ -1289,9 +1252,6 @@ fine orologio
  */
 
 
-
-
-
 .about-intro h2 {
 	margin-top: 0;
 }
@@ -1308,7 +1268,7 @@ fine orologio
 	margin: 10px auto;
 }
 
-.globale-dati {
+.global-dati {
 	overflow: hidden;
 	text-align: center;
 	white-space: nowrap;
@@ -1316,38 +1276,38 @@ fine orologio
 	width: 100%
 }
 
-.globale-cont {
+.global-cont {
 	border-right: solid 1px #fff;
 	display: table-cell;
 }
 
-.globale-cont:last-child {
+.global-cont:last-child {
 	border-right: none;
 }
 
-.globale-perc {
+.global-perc {
 	background: #d8dddc;
 	padding: 10px 0;
 	font-family: "Museo500Regular", Helvetica, Arial, sans-serif;
-	font-size: 30px;
-	line-height: 30px;
+	font-size: 24px;
+	line-height: 24px;
 	display: block;
 	color: #51595f;
 }
 
-.europa .globale-perc {
+.europa .global-perc {
 	border-top: solid 3px #4db07a;
 }
 
-.asia .globale-perc {
+.asia .global-perc {
 	border-top: solid 3px #5c91b5;
 }
 
-.america .globale-perc {
+.america .global-perc {
 	border-top: solid 3px #e86d4c;
 }
 
-.altri .globale-perc {
+.altri .global-perc {
 	border-top: solid 3px #eac85d;
 }
 
@@ -1355,18 +1315,18 @@ fine orologio
 	display: none;
 }
 
-#globale {
+#global {
 	width: 270px !important;
 	height: 270px !important;
 }
 
-#visite {
+#visited {
 	width: 290px !important;
 	height: 157px !important;
 	margin-left: -20px;
 }
 
-.visite-dati {
+.visited-dati {
 	background: #d8dddc;
 	padding: 15px 20px;
 	display: block;
@@ -1375,14 +1335,14 @@ fine orologio
 	margin-top: 21px;
 }
 
-.visite-tot {
+.visited-tot {
 	font-family: "Museo500Regular", Helvetica, Arial, sans-serif;
-	font-size: 36px;
-	line-height: 40px;
+	font-size: 24px;
+	line-height: 24px;
 	text-align: center;
 }
 
-.visite-desc p {
+.visited-desc p {
 	margin-bottom: 0;
 	line-height: 20px;
 }
@@ -2168,10 +2128,6 @@ h5.blog-categorie a {
    BLOG - pagina articolo
    ========================================================================== */
 
-
-
-
-
 .single-post .main {
 	margin: 0 -15px;
 }
@@ -2469,10 +2425,6 @@ figure.alignnone {
 STILI GENERICI @ 768
 ========================================================================== */
 
-	
-
-
-
 
 h1 {
 	font-size: 40px;
@@ -2516,67 +2468,18 @@ section {
 	padding: 60px 0;
 }
 
-section.pagina-testo-header {
-	padding-top: 170px;
-	padding-bottom: 30px;
-}
-
-.lead-link {
-	position: absolute;
-	bottom: 0;
-	left: 50%;
-	margin-left: -85px;
-	padding: 5px 0;
-	width: 170px;
-	background: white;
-	color: #424b51;
-}
-
-.lead-link:hover {
-	color: #5e696f;
-}
-
-.lead-link .icona-freccia-giu,
-.lead-link .icona-freccia-giu:hover {
-	color: #424b51;
-	font-size: 14px;
-	text-shadow: none;
-}
-
-/* slider per cambiare risoluzioni responsive */
-
-
-
-.slider.slider-vertical {
-	margin-top: 170px;
-}
-
-.res-slider-img {
-	width: 100%;
-	margin-bottom: -60px;
-	margin-top: 80px;
-}
-
-.res-slider-img img {
-	width: 475px;
-	height: auto;
-}
-
 .res-lista {
 	margin-top: 140px;
 }
 
 .home #full-width-slider h2 {
-	font-size: 48px;
+	font-size: 40px;
 }
 
 /* ==========================================================================
    NAVBAR @ 768
    ========================================================================== */
 	
-		
-
-
 .banner {
 	position: absolute;
 }
@@ -2694,38 +2597,35 @@ a.roll:hover span {
    ABOUT @ 768
    ========================================================================== */
 
-
-
-
 .about .header-titolo {
 	margin-top: -300px;
 }
 
-.globale-perc {
+.global-perc {
 	padding: 15px 0;
-	font-size: 32px;
-	line-height: 32px;
+	font-size: 24px;
+	line-height: 24px;
 }
 
-.visite-tot {
-	font-size: 32px;
+.visited-tot {
+	font-size: 24px;
 	float: left;
 	width: 30%;
 	text-align: center;
 }
 
-.visite-desc {
+.visited-desc {
 	text-align: left;
 	float: left;
 	width: 70%;
 }
 
-#globale {
+#global {
 	width: 240px !important;
 	height: 240px !important;
 }
 
-#visite {
+#visited {
 	width: 408px !important;
 	height: 221px !important;
 	margin-left: -20px;
@@ -2769,8 +2669,6 @@ section.foto {
    PORTFOLIO @ 768
    ========================================================================== */
 
-
-
 .post-type-archive-portfolio .lead-link {
 	background: #ebeeed;
 }
@@ -2797,96 +2695,10 @@ section.foto {
 	bottom: 50px;
 }
 
-/* ==========================================================================
-   BLOG @ 768
-   ========================================================================== */
-
-
-
-
-.navbar .nav.nav-blog {
-	float: none;
-	display: table;
-	width: 100%;
-	z-index: 1;
-}
-
-.navbar .nav.nav-blog li {
-	display: table-cell;
-}
-
-.blog-logo {
-	padding-top: 200px;
-}
-
-.navbar .nav-blog {
-	margin-bottom: 25px;
-}
-
-#blog-blocchi .element .media.post-normale .img-overlay a {
-	margin-left: 20px;
-}
-
-.blog .post-featured h3,
-.category .post-featured h3 {
-	font-size: 28px;
-	margin-bottom: 10px;
-}
-
-.blog .post-featured.media .media-img,
-.category .post-featured.media .media-img,
- .blog .post-normale.media .media-img,
-.category .post-normale.media .media-img {
-	max-height: none;
-}
-
-.single-post .main {
-	margin: 0;
-}
-
-.single-post .articolo-box header {
-	margin: 20px 30px 30px;
-}
-
-.single-post .articolo-box header h1 {
-	font-size: 30px;
-}
-
-.single-post h5.blog-categorie {
-	right: auto;
-	padding-left: 30px;
-	display: block;
-	margin-right: 0;
-}
-
-.single-post .entry-content p {
-	margin-bottom: 2em;
-   -webkit-font-smoothing: antialiased;
-}
-}
-
-.single-post .entry-content p.metadata {
-	margin-bottom: 25px !important;
-}
-
-.single-post .at-floatingbar-share .addthis_button_facebook_like iframe {
-	width: 73px !important;
-}
-.single-post .entry-content {
-padding:0 30px;
-}
 
 /* ==========================================================================
-   Contatti @ 768
+   Contact
    ========================================================================== */
-
-
-
-
-
-
-
-
 
 #map_canvas,
 .mappa-overlay {
@@ -2975,8 +2787,6 @@ padding:0 30px;
    Footer @ 768
    ========================================================================== */
 
-
-
 .content-info {
 	padding: 60px 0;
 }
@@ -3004,15 +2814,12 @@ padding:0 30px;
    STILI GENERICI @ 992
    ========================================================================== */
 
-
-
-
 h1 {
 	font-size: 48px;
 }
 
 h2 {
-	font-size: 36px;
+	font-size: 30px;
 }
 
 h3 {
@@ -3048,25 +2855,21 @@ h3 {
    ABOUT @ 992
    ========================================================================== */
 
-	
-
-
-
-.globale-perc {
-	font-size: 36px;
-	line-height: 36px;
+.global-perc {
+	font-size: 24px;
+	line-height: 24px;
 }
 
-.visite-tot {
-	font-size: 36px;
+.visited-tot {
+	font-size: 24px;
 }
 
-#globale {
+#global {
 	width: 244px !important;
 	height: 244px !important;
 }
 
-#visite {
+#visited {
 	width: 455px !important;
 	height: 246px !important;
 	margin-left: -20px;
@@ -3146,12 +2949,8 @@ h3 {
 }
 
 /* ==========================================================================
-   CONTATTI @ 992
+   CONTACT @ 992
    ========================================================================== */
-
-
-
-
 
 .contatti-numeri p {
 	font-size: 14px;
@@ -3170,10 +2969,6 @@ h3 {
    Footer @ 992
    ========================================================================== */
 
-
-
-
-
 .content-info .slogan {
 	width: 160px;
 	margin-top: -20px;
@@ -3182,8 +2977,6 @@ h3 {
  @media (min-width: 1200px) {
 
 /* slider per cambiare risoluzioni responsive */
-
-
 
 .slider.slider-vertical {
 	margin-top: 120px;
@@ -3229,8 +3022,6 @@ section {
    HOME @ 1200
    ========================================================================== */
 
-
-
 .home .grigio {
 	padding-bottom: 60px;
 }
@@ -3243,17 +3034,12 @@ section {
    ABOUT @ 1200
    ========================================================================== */
 
-
-	
-
-
-
-#globale {
+#global {
 	width: 270px !important;
 	height: 270px !important;
 }
 
-#visite {
+#visited {
 	width: 500px !important;
 	height: 270px !important;
 	margin-left: -20px;
@@ -3294,11 +3080,6 @@ section.foto {
    PORTFOLIO @ 1200
    ========================================================================== */
 
-
-
-
-
-
 .post-type-archive-portfolio .header-titolo {
 	margin-left: 25%;
 	margin-right: 25%;
@@ -3315,9 +3096,6 @@ section.foto {
 /* ==========================================================================
    CONTATTI @ 1200
    ========================================================================== */
-
-
-
 
 .form-contatti-body {
 	padding: 20px 50px 0;
@@ -3354,27 +3132,9 @@ div.wpcf7-response-output {
    Footer @ 1200
    ========================================================================== */
 
-
 .content-info .slogan {
 	width: 170px;
 	margin-left: 0;
 }
 }
 
-
-/* immagini ad alta risoluzione */
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-
-.navbar .brand {
-	background-image: url(../img/rd-logo-bianco@2x.png);
-}
-
-.contatti .navbar .brand,
-.contacts .navbar .brand,
-.blog .navbar .brand,
-.category .navbar .brand,
-.single-post .navbar .brand {
-	background-image: url(../img/rd-logo-nero@2x.png);
-}
-}
